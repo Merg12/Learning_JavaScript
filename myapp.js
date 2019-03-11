@@ -8,3 +8,27 @@ function makeCoffee(sugar, milk)
 }
 
 console.log(makeCoffee(2, 20));
+
+var car = {
+    make: "volvo",
+    speed: 160,
+    engine: {
+        size: 2.0,
+        make: "BMW",
+        fuel: "petrol",
+        pistons: [{maker: "BMW"}, {maker: "BMW2"}]
+    },
+    drive: function(){
+        return "drive";
+    }
+};
+
+var array = [
+    "string",
+    100,
+    ["embeded", 200],
+    {car: "Ford"},
+    function(){
+        return "drive";
+    };
+]
